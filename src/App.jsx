@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import Home from './components/Home';
 
 function App() {
 
   return (
-      <div>
-        <h1>Welcome to My Portfolio</h1>
+      <div className='App'>
+        <Home/>
       </div>
   )
 }

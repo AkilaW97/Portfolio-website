@@ -38,3 +38,33 @@ header p{
     color: #555;
     margin: 10px 0;
 }
+
+@media(max-width: 768px){
+    .home{
+        padding: 10px;
+    }
+
+    header h1{
+        font-size: 2rem;
+    }
+
+    header p{
+        font-size: 1rem;
+    }
+
+    .skills h2{
+        font-size: 1.5rem;
+    }
+
+    .skills li{
+        font-size: 1rem;
+    }
+
+    .projects h2{
+        font-size: 1.5rem;
+    }
+
+    .project-card{
+        width: 100%;
+    }
+}

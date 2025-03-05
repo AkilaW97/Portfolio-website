@@ -26,3 +26,14 @@
 .nav-links a:hover{
     text-decoration: underline;
 }
+
+@media(max-width: 768px){
+    .nav-links{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar{
+        padding: 10px;
+    }
+}

@@ -10,12 +10,12 @@ header{
 
 header h1{
     font-size: 2.5rem;
-    color: #333
+    color: white
 }
 
 header p{
     font-size: 1.2rem;
-    color: #666;
+    color: white;
 }
 
 .skills{
@@ -24,7 +24,7 @@ header p{
 
 .skills h2{
     font-size: 2rem;
-    color: #333;
+    color: white;
 }
 
 .skills ui{
@@ -35,7 +35,7 @@ header p{
 .skills li{
     font-size: 1.1rem;
     list-style: none;
-    color: #555;
+    color: white;
     margin: 10px 0;
 }
 

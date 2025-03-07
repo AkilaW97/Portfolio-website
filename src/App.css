@@ -1,4 +1,26 @@
-.App{
-    font-family: Arial, Helvetica, sans-serif;
+/* Ensure the entire page takes up full height */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Make the App container full height */
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Push the content to take available space */
+.App > .main-content {
+    flex: 1;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
     text-align: center;
+    width: 100%;
 }
